@@ -5,7 +5,7 @@ app = Dash(__name__)
 server = app.server
 app.layout = html.Div([
     github_info_header(),
-    html.Img(src="assets/sea_otter_new.jpg")
+    html.Img(src="assets/sea_otter.jpg")
 ])
 
 if __name__ == '__main__':
